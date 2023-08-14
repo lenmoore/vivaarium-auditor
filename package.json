@@ -8,9 +8,9 @@
   "type": "module",
   "scripts": {
     "build:digitalocean": "npm install --production=false && npm run build && npm ci",
-    "dev": "vivaarium-auditor/node_modules/.bin/vite",
-    "build": "vivaarium-auditor/node_modules/.bin/vue-tsc && vite build",
-    "preview": "vivaarium-auditor/node_modules/.bin/vite preview"
+    "dev": "node_modules/.bin/vite",
+    "build": "node_modules/.bin/vue-tsc && vite build",
+    "preview": "node_modules/.bin/vite preview"
   },
   "dependencies": {
     "vue": "^3.3.4",
