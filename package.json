@@ -7,6 +7,7 @@
   },
   "type": "module",
   "scripts": {
+    "build:digitalocean": "npm install --production=false && npm run build && npm ci",
     "dev": "vivaarium-auditor/node_modules/.bin/vite",
     "build": "vivaarium-auditor/node_modules/.bin/vue-tsc && vite build",
     "preview": "vivaarium-auditor/node_modules/.bin/vite preview"
